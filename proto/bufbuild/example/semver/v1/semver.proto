@@ -2,6 +2,8 @@ syntax = "proto3";
 
 package bufbuild.example.semver.v1;
 
+option go_package = "github.com/mtyrrell/buf-example/pkg/semver/v1";
+
 message Version {
   uint64 major = 1;
   uint64 minor = 2;
